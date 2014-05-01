@@ -5,11 +5,11 @@ This a very early version, but works. Web scraping by regexes is hairy
 business, so the code may break in funny ways. Let me know, or leave
 an issue, or a pull request.
 
-Web scraper for collecting combined list of publications for a group
-of people from University of Helsinki [TUHAT research database][1] web
-pages. Which is an [Elsevier Pure][2] product, so this script might
-work with minor modifications for similar installationa at other
-institutions.
+Web scraper for collecting a joint list of publications for a group of
+people from the University of Helsinki [TUHAT research database][1]
+web pages. (Which is an [Elsevier Pure][2] product, so this script
+might work with minor modifications for similar installations at other
+institutions.)
 
 Write a list of names, one per line, into a file, say `people.txt`.
 For example:
@@ -21,8 +21,8 @@ and then run
 
     ./scraper.scala 2011 people.txt > list.txt 
 
-to get a joint list of publications. Ordered by year, then by first
-author, then by second author, then by title.
+to get a joint list of publications. (Ordered by year, then by first
+author, then by second author, then by title.)
 
 At the moment only publication types
 
@@ -40,6 +40,11 @@ To do
 
 *   Handle more types of publications (in `matchToPublication` and in
     class `Publication`)
+
+*   Add years as subtitles in output
+
+*   Inside a year, group different types of publication under separate
+    subtitles?
 
 *   (Tidy up code)
 
