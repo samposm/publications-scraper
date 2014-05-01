@@ -21,8 +21,9 @@ and then run
 
     ./scraper.scala 2011 people.txt > list.txt 
 
-to get a joint list of publications. (Ordered by year, then by first
-author, then by second author, then by title.)
+to get a joint list of publications, in this case only for publications 
+from 2011 or more recent. (Ordered by year, then by first author, then 
+by second author, then by title.)
 
 At the moment only publication types
 
