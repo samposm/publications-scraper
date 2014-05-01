@@ -6,8 +6,8 @@ business, so the code may break in funny ways. Let me know, or leave
 an issue, or a pull request.
 
 Web scraper for collecting combined list of publications for a group
-of people from University of Helsinki TUHAT research database web
-pages. Which is an [Elsevier Pure][1] product, so this script might
+of people from University of Helsinki [TUHAT research database][1] web
+pages. Which is an [Elsevier Pure][2] product, so this script might
 work with minor modifications for similar installationa at other
 institutions.
 
@@ -43,4 +43,8 @@ To do
 
 *   (Tidy up code)
 
-[1]: http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure
+- - -
+sampo.smolander@helsinki.fi
+
+[1]: https://tuhat.halvi.helsinki.fi/portal/
+[2]: http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure
